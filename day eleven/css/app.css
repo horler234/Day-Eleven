@@ -14,6 +14,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   color: #00252e; }
 
+
 .header-container {
   background: url("bg-hero-desktop.svg"), linear-gradient(#ebfbff, #ebfbff);
   background-repeat: no-repeat;
@@ -274,6 +275,12 @@ p.copyright {
 
   p.copyright {
     text-align: center;
-    margin-top: 40px; } }
+    margin-top: 40px; } 
+
+  .header-container {
+  background: url("bg-hero-mobile.svg"), linear-gradient(#ebfbff, #ebfbff);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 0 50px; } }
 
 /*# sourceMappingURL=app.css.map */
